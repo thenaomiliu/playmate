@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0727A38825FE9FFA00D100A2 /* SportPreferenceTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0727A38725FE9FFA00D100A2 /* SportPreferenceTable.xib */; };
 		07B64DEA25F570A7005E893A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B64DE925F570A7005E893A /* AppDelegate.swift */; };
 		07B64DEC25F570A7005E893A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B64DEB25F570A7005E893A /* SceneDelegate.swift */; };
 		07B64DEE25F570A7005E893A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B64DED25F570A7005E893A /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0727A38725FE9FFA00D100A2 /* SportPreferenceTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SportPreferenceTable.xib; sourceTree = "<group>"; };
 		07B64DE625F570A7005E893A /* playmate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playmate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B64DE925F570A7005E893A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07B64DEB25F570A7005E893A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				07B64DE925F570A7005E893A /* AppDelegate.swift */,
 				07B64DEB25F570A7005E893A /* SceneDelegate.swift */,
 				07B64DEF25F570A7005E893A /* Main.storyboard */,
+				0727A38725FE9FFA00D100A2 /* SportPreferenceTable.xib */,
 				07B64DF225F570A9005E893A /* Assets.xcassets */,
 				07B64DF425F570A9005E893A /* LaunchScreen.storyboard */,
 				07B64DF725F570A9005E893A /* Info.plist */,
@@ -242,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0727A38825FE9FFA00D100A2 /* SportPreferenceTable.xib in Resources */,
 				07B64DF625F570A9005E893A /* LaunchScreen.storyboard in Resources */,
 				07B64DF325F570A9005E893A /* Assets.xcassets in Resources */,
 				07B64DF125F570A7005E893A /* Main.storyboard in Resources */,
