@@ -82,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07868BFF262FAE63008F1E86 /* Xib Files */ = {
+			isa = PBXGroup;
+			children = (
+				07868BFA262FADB0008F1E86 /* HomeScreen.xib */,
+				0727A38725FE9FFA00D100A2 /* SportPreferenceTable.xib */,
+			);
+			path = "Xib Files";
+			sourceTree = "<group>";
+		};
 		07B64DDD25F570A6005E893A = {
 			isa = PBXGroup;
 			children = (
@@ -108,14 +117,11 @@
 				07B64DE925F570A7005E893A /* AppDelegate.swift */,
 				07B64DEB25F570A7005E893A /* SceneDelegate.swift */,
 				07B64DEF25F570A7005E893A /* Main.storyboard */,
-				07868BFA262FADB0008F1E86 /* HomeScreen.xib */,
-				0727A38725FE9FFA00D100A2 /* SportPreferenceTable.xib */,
+				07B64E2125F57385005E893A /* Controllers */,
+				07868BFF262FAE63008F1E86 /* Xib Files */,
 				07B64DF225F570A9005E893A /* Assets.xcassets */,
 				07B64DF425F570A9005E893A /* LaunchScreen.storyboard */,
 				07B64DF725F570A9005E893A /* Info.plist */,
-				07B64E2125F57385005E893A /* Controllers */,
-				07B64DED25F570A7005E893A /* ViewController.swift */,
-				07B64E1C25F57376005E893A /* CreateAccViewController.swift */,
 			);
 			path = playmate;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 		07B64E2125F57385005E893A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				07B64DED25F570A7005E893A /* ViewController.swift */,
+				07B64E1C25F57376005E893A /* CreateAccViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
