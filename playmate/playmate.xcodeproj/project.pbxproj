@@ -18,6 +18,11 @@
 		07B64E0125F570AA005E893A /* playmateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B64E0025F570AA005E893A /* playmateTests.swift */; };
 		07B64E0C25F570AA005E893A /* playmateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B64E0B25F570AA005E893A /* playmateUITests.swift */; };
 		07B64E1D25F57376005E893A /* CreateAccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B64E1C25F57376005E893A /* CreateAccViewController.swift */; };
+		A28EF9D326312459005847F2 /* football-players.png in Resources */ = {isa = PBXBuildFile; fileRef = A28EF9D226312459005847F2 /* football-players.png */; };
+		A28EF9D826312657005847F2 /* basketball-ball.png in Resources */ = {isa = PBXBuildFile; fileRef = A28EF9D726312657005847F2 /* basketball-ball.png */; };
+		A28EF9DD2631265D005847F2 /* baseball-ball-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = A28EF9DC2631265D005847F2 /* baseball-ball-outline.png */; };
+		A28EF9E226312665005847F2 /* rugby-ball.png in Resources */ = {isa = PBXBuildFile; fileRef = A28EF9E126312665005847F2 /* rugby-ball.png */; };
+		A28EF9E72631266D005847F2 /* tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = A28EF9E62631266D005847F2 /* tennis.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		07B64E0B25F570AA005E893A /* playmateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playmateUITests.swift; sourceTree = "<group>"; };
 		07B64E0D25F570AA005E893A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07B64E1C25F57376005E893A /* CreateAccViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccViewController.swift; sourceTree = "<group>"; };
+		A28EF9D226312459005847F2 /* football-players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "football-players.png"; sourceTree = "<group>"; };
+		A28EF9D726312657005847F2 /* basketball-ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "basketball-ball.png"; sourceTree = "<group>"; };
+		A28EF9DC2631265D005847F2 /* baseball-ball-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-ball-outline.png"; sourceTree = "<group>"; };
+		A28EF9E126312665005847F2 /* rugby-ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rugby-ball.png"; sourceTree = "<group>"; };
+		A28EF9E62631266D005847F2 /* tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tennis.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +124,11 @@
 		07B64DE825F570A7005E893A /* playmate */ = {
 			isa = PBXGroup;
 			children = (
+				A28EF9D726312657005847F2 /* basketball-ball.png */,
+				A28EF9E126312665005847F2 /* rugby-ball.png */,
+				A28EF9E62631266D005847F2 /* tennis.png */,
+				A28EF9DC2631265D005847F2 /* baseball-ball-outline.png */,
+				A28EF9D226312459005847F2 /* football-players.png */,
 				07B64DE925F570A7005E893A /* AppDelegate.swift */,
 				07B64DEB25F570A7005E893A /* SceneDelegate.swift */,
 				07B64DEF25F570A7005E893A /* Main.storyboard */,
@@ -256,11 +271,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28EF9D826312657005847F2 /* basketball-ball.png in Resources */,
 				0727A38825FE9FFA00D100A2 /* SportPreferenceTable.xib in Resources */,
+				A28EF9E226312665005847F2 /* rugby-ball.png in Resources */,
 				07B64DF625F570A9005E893A /* LaunchScreen.storyboard in Resources */,
 				07868BFB262FADB0008F1E86 /* HomeScreen.xib in Resources */,
+				A28EF9D326312459005847F2 /* football-players.png in Resources */,
 				07B64DF325F570A9005E893A /* Assets.xcassets in Resources */,
 				07B64DF125F570A7005E893A /* Main.storyboard in Resources */,
+				A28EF9E72631266D005847F2 /* tennis.png in Resources */,
+				A28EF9DD2631265D005847F2 /* baseball-ball-outline.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
